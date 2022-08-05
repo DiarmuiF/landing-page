@@ -1,0 +1,21 @@
+body {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-family: 'roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border: black solid;
+    max-height: 80px;
+}
+
+.h-links {
+    justify-content: flex-end;
+}
