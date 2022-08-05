@@ -14,8 +14,22 @@ a {
     align-items: center;
     border: black solid;
     max-height: 80px;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.header-content {
+    display: flex;
+    min-width: 600px;
+    max-width: 1400px;
+    border: red solid;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .h-links {
-    justify-content: flex-end;
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    font-size: 18px;
 }
