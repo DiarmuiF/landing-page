@@ -40,3 +40,8 @@ a {
     border: black solid;
     align-items: center;
 }
+
+.content img {
+    height: 300px;
+    border-radius: 20%;
+}
