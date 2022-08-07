@@ -18,7 +18,7 @@ a {
     font-size: 24px;
 }
 
-.header-content {
+.header-content, .content1 {
     display: flex;
     min-width: 600px;
     max-width: 1400px;
@@ -32,4 +32,11 @@ a {
     margin: 10px;
     gap: 10px;
     font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    border: black solid;
+    align-items: center;
 }
