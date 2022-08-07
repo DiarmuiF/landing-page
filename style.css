@@ -68,6 +68,19 @@ button {
     border-radius: 10%;
 }
 
-.content1-text, img {
-    border: pink solid
+.content2-head {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+
+.content2-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px
+}
+
+.content2-container img {
+    height: 120px;
+    width: 120px;
 }
