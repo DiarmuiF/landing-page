@@ -39,6 +39,7 @@ a, .secondary-text {
     flex-flow: column;
     border: black solid;
     align-items: center;
+    flex: 1 1 auto;
 }
 
 .main-body img {
@@ -124,4 +125,43 @@ button {
     font-style: none;
     font-weight: 550;
     font-size: 30px;
+}
+
+.content4 {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    min-width: 700px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px
+}
+
+.cta-content {
+    min-width: 600px;
+    border: purple solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-content button {
+    border:#F9FAF8 solid;
+    max-height: 50px;
+}
+
+.footer {
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
