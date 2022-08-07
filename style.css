@@ -18,7 +18,7 @@ a, .secondary-text {
     font-size: 24px;
 }
 
-.header-content, .content1, .content3 {
+.content {
     display: flex;
     min-width: 800px;
     max-width: 1400px;
@@ -34,14 +34,14 @@ a, .secondary-text {
     font-size: 18px;
 }
 
-.content {
+.main-body {
     display: flex;
     flex-flow: column;
     border: black solid;
     align-items: center;
 }
 
-.content img {
+.main-body img {
     height: 300px;
     border-radius: 20%;
 }
