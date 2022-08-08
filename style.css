@@ -25,9 +25,8 @@ a, .secondary-text {
     display: flex;
     /* min-width: 800px;
     max-width: 1400px; */
-
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -48,7 +47,7 @@ a, .secondary-text {
 
 .main-body img {
     height: 300px;
-    border-radius: 20%;
+    border-radius: 5%;
 }
 
 .content1-text {
@@ -165,11 +164,15 @@ button {
 }
 
 .content1 {
-    min-width: 800px;
-    max-width: 1000px;
+    display: flex;
+    margin: 100px 0px
 }
 
-.header-content {
+.header-content,
+.content1
+         {
     min-width: 800px;
     max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
 }
