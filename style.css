@@ -18,9 +18,7 @@ a, .secondary-text {
     max-height: 80px;
     justify-content: center;
     font-size: 24px;
-    min-width: 800px;
-    max-width: 1400px;
-    border: red solid;
+    width: 100%;
 }
 
 .content {
@@ -167,7 +165,11 @@ button {
 }
 
 .content1 {
-    border: red solid;
+    min-width: 800px;
+    max-width: 1000px;
+}
+
+.header-content {
     min-width: 800px;
     max-width: 1000px;
 }
