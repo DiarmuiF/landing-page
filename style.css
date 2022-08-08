@@ -99,6 +99,7 @@ button {
 .content2-container img {
     height: 120px;
     width: 120px;
+    border: rgb(0, 153, 255) solid
 }
 
 .content3 {
