@@ -1,2 +1,2 @@
 # landing-page
-Basic landing page with bio information
+Basic landing page made as part of The Odin Project
